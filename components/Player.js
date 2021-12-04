@@ -56,7 +56,7 @@ function Player() {
 
   useEffect(() => {
     if (spotifyApi.getAccessToken() && !currentTrackId) {
-      // fetch the song info
+      // fetch the song info test
       fetchCurrentTrack();
     }
   }, [currentTrackId, spotifyApi, session]);
