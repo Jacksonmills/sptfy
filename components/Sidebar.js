@@ -60,7 +60,7 @@ function Sidebar() {
 
         <hr className='border-t-[0.1px] border-gray-900' />
 
-        {/* Playlists list */}
+        {/* Playlists lists */}
         {playlists.map((playlist) => {
           return (
             <p
